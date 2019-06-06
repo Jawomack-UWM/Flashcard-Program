@@ -1,0 +1,87 @@
+
+
+QWidget{
+	background: #282827;
+}
+
+QPushButton{
+	color: #000000;
+	background-color: #E25D33;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 8px;
+	height: 18px;
+    padding-right: 8px;
+    /*font-weight: bold;*/
+	}
+
+QPushButton::hover{
+	color: #000000;
+	background: #66FFCC;
+	}
+
+QPushButton::disabled{
+	background: #282827;
+	color: white;
+	border: 1px solid #FFFFFF;
+}
+
+QLineEdit {
+ 	color: black;
+     border: 1px solid #E25D33;
+     background: white;
+     selection-background-color: darkgray;
+ }
+
+QLabel{
+	color: #FFFFFF;
+}
+
+QTextEdit{
+	background: #FFFFFF;
+	border: 2px solid #E25D33;
+}
+
+QComboBox{
+	background: #E25D33;
+    color: black;
+}
+
+QComboBox QAbstractItemView
+{
+    border: 2px solid darkgray;
+    color: black;
+    background-color: #FFFFFF; 
+}
+
+
+
+#lcd_right{    
+    background-color: green;
+}
+
+#lcd_wrong{
+	background: red;
+}
+
+#Correct_button{
+	color: #003300;
+	font-weight: bold;
+}
+
+#Correct_button::disabled{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+#Incorrect_button{
+	color: #B00000;
+	font-weight: normal;
+}
+
+#Incorrect_button::disabled{
+	color: #FFFFFF;
+	font-weight: none;
+}
+
+
